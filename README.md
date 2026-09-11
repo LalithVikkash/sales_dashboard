@@ -1,37 +1,65 @@
 # Sales Performance & Profitability Dashboard
 
-An interactive sales analytics dashboard built with Python, Pandas, NumPy, SQL, SQLite, and Streamlit.
+An interactive business analytics dashboard built with Python, Pandas, NumPy, SQL, SQLite, and Streamlit to analyze sales performance, profitability, products, categories, and regional trends.
+
+## Dashboard Preview
+
+The dashboard provides an interactive view of key sales and profitability metrics with filters for region and category.
 
 ## Features
 
-- Interactive sales and profitability analysis
-- Total sales, profit, orders, and quantity KPIs
+- Interactive region and category filters
+- Total sales and total profit KPIs
+- Order and quantity tracking
 - Profit margin calculation
-- Monthly sales trend analysis
+- Monthly sales trend visualization
 - Top products by sales
 - Regional sales analysis
-- Category performance analysis
+- Category-level performance analysis
 - Product profitability analysis
-- Interactive region and category filters
-- SQL-based sales analysis
-- Detailed sales data table
+- Detailed sales data exploration
+- SQL-based category performance analysis
 
-## Technologies Used
+## Tech Stack
 
-- Python
-- Pandas
-- NumPy
-- SQL
-- SQLite
-- Streamlit
+- **Programming:** Python
+- **Data Analysis:** Pandas, NumPy
+- **Database:** SQLite
+- **Querying:** SQL
+- **Dashboard:** Streamlit
 
 ## Dataset
 
-The project includes a sample sales dataset containing order dates, products, categories, regions, quantities, sales, costs, and profits.
+The project uses a sample sales dataset containing:
 
-## How to Run
+- Order date
+- Product
+- Category
+- Region
+- Quantity
+- Sales
+- Cost
+- Profit
 
-1. Install the required dependencies:
+The dataset contains 500 sales records generated for analysis and dashboard demonstration.
 
-```bash
-pip install -r requirements.txt
+## SQL Analysis
+
+The sales data is loaded into a SQLite database and analyzed using SQL queries.
+
+The SQL analysis includes:
+
+- Total sales by category
+- Total profit by category
+- Total quantity sold by category
+- Category ranking based on sales performance
+
+## Project Structure
+
+```text
+sales_dashboard/
+├── app.py
+├── sales_data.csv
+├── requirements.txt
+├── README.md
+└── .gitignore
